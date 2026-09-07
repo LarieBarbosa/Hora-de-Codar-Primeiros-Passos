@@ -1,0 +1,26 @@
+programa
+{
+	
+	funcao inicio()
+	{
+		real numero1
+		real numero2
+		real resultado
+
+		escreva("Digite o primeiro valor: ")
+		leia(numero1)
+
+		escreva("Digite o seguno valoe: ")
+		leia(numero2)
+
+		enquanto (numero2 <= 0)
+		{
+			escreva("Digite novamente o segundo valor: ")
+			leia(numero2)
+		}
+
+		resultado = numero1 / numero2
+
+		escreva("O resultado a divisão é: ", resultado)
+	}
+}

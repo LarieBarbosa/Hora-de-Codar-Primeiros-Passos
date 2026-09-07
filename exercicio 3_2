@@ -10,7 +10,7 @@ programa
 		escreva("Digite o primeiro valor: ")
 		leia(numero1)
 
-		escreva("Digite o seguno valoe: ")
+		escreva("Digite o seguno valor: ")
 		leia(numero2)
 
 		enquanto (numero2 <= 0)

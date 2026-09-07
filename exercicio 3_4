@@ -1,0 +1,32 @@
+programa
+{
+	
+	funcao inicio()
+	{
+		inteiro numero1
+		inteiro numero2
+		inteiro numero
+		inteiro soma
+		inteiro quantidade 
+		real media
+
+		escreva("Digite o primeiro número: ")
+		leia(numero1)
+
+		escreva("Digite o primeiro número: ")
+		leia(numero2)
+
+		soma = 0
+		quantidade = 0
+
+		para (numero =numero1; numero <= numero2; numero++)
+		{
+			soma = soma + numero 
+			quantidade = quantidade + 1 
+		}
+
+		media = soma / (quantidade * 1.0)
+
+		escreva("A média é: ", media)
+	}
+}

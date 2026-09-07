@@ -1,0 +1,43 @@
+programa
+{
+	
+	funcao inicio()
+	{
+		real nota1
+		real nota2
+		real media
+		cadeia resposta
+		inteiro aprovados
+
+		aprovados = 0 
+
+		resposta = "S"
+
+		enquanto (resposta == "S")
+		{
+			escreva("Digite a primeira nota: ")
+			leia(nota1)
+
+			escreva("Digite a segunda nota: ")
+			leia(nota2)
+
+			media = (nota1 + nota2) / 2
+
+			escreva("A média é: ", media, "\n")
+
+			se (media >= 9.5)
+			{
+				escreva("Aluno aprovado!\n")
+				aprovados = aprovados + 1
+			}
+			senao
+			{
+				escreva("Aluno reprovado!\n")
+			}
+
+			escreva("Calcular a média e outro aluno/? (S/N): ")
+			leia(resposta)
+		}
+		escreva("Quantidade e alunos aprovados: ", aprovados)
+	}
+}

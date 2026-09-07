@@ -1,0 +1,13 @@
+programa
+{
+	
+	funcao inicio()
+	{
+		inteiro numero
+
+		para (numero = 101; numero <= 110; numero++)
+		{
+			escreva(numero, "\n")
+		}
+	}
+}

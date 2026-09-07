@@ -1,0 +1,18 @@
+programa
+{
+	
+	funcao inicio()
+	{
+		inteiro numero
+
+		numero = 30
+
+		enquanto (numero >= 0)
+		{
+			escreva(numero, "\n")
+			numero = numero -1
+		}
+
+		escreva("EXPLOSÃO")
+	}
+}

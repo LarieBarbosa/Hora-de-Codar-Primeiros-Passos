@@ -1,0 +1,21 @@
+programa
+{
+	
+	funcao inicio()
+	{
+		inteiro numero
+		inteiro soma
+		real media 
+
+		soma = 0
+
+		para (numero = 15; numero <= 100; numero++)
+		{
+			soma = soma + numero
+		}
+
+		media = soma / 86.0
+
+		escreva("A média é: ", media)
+	}
+}

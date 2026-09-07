@@ -1,0 +1,25 @@
+programa
+{
+	
+	funcao inicio()
+	{
+		inteiro ano_nascimento
+		inteiro idade 
+
+		escreva("Digite seu ano de nascimento: ")
+		leia(ano_nascimento) 
+
+		idade = 2026 - ano_nascimento
+
+		escreva("Sua idade é: ", idade)
+
+		se (idade >= 16)
+		{
+			escreva("\nVocê pode votar")
+		}
+		senao
+		{
+			escreva("\nVocê não pode votar")
+		}
+	}
+}

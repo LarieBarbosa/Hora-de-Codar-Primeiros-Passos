@@ -1,0 +1,31 @@
+programa
+{
+	
+	funcao inicio()
+	{
+		real nota
+		real soma 
+		real media
+		inteiro contador
+
+		soma = 0
+
+		para (contador = 1; contador <= 6; contador++)
+		{
+			escreva("Digite a nota ", contador, ": ")
+			leia(nota)
+
+			enquanto (nota < 0 ou nota > 10)
+			{
+				escreva("Digite uma nota válida: ")
+				leia(nota)
+			}
+
+			soma = soma + nota
+		}
+
+		media = soma / 6 
+
+		escreva("A média é: ", media)
+	}
+}

@@ -1,0 +1,23 @@
+programa
+{
+	
+	funcao inicio()
+	{
+		inteiro numero
+		inteiro contador
+
+		escreva("Digite um número maior que 0: ")
+		leia(numero)
+
+		enquanto (numero <= 0)
+		{
+			escreva("Digite um número maior que 0: ")
+			leia(numero)
+		}
+
+		para (contador = 1; contador <= numero; contador++)
+		{
+			escreva(contador, "\n")
+		}
+	}
+}

@@ -1,0 +1,46 @@
+programa
+{
+	
+	funcao inicio()
+	{
+		real numero1
+		real numero2
+		real numero3
+		real numero4
+		real media
+
+		escreva("Digite o primeiro número (maior que 0 e menor que 10): ")
+		leia(numero1)
+
+		escreva("Digite o segundo número (maior que 0 e menor que 10): ")
+		leia(numero2)
+
+		escreva("Digite o terceiro número (maior que 0 e menor que 10): ")
+		leia(numero3)
+
+		escreva("Digite o quarto número (maior que 0 e menor que 10): ")
+		leia(numero4)
+
+		se (numero1 > 0 e numero1 < 10 e numero2 > 0 e numero2 < 10 e numero3 > 0 e numero3 < 10 e numero4 > 0 e numero4 < 10)
+		{
+			media = (numero1 + numero2 + numero3 + numero4) / 4
+
+			escreva("A média é: ", media)
+
+			se (media > 5)
+			{
+				escreva("\nVocê passou no teste")
+			}
+			senao
+			{
+				escreva("\nTente novamente")
+			}
+		}
+		senao 
+		{
+			escreva("Os valores precisam ser maiores que 0 e menor que 10.")
+		}
+
+		
+	}
+}
